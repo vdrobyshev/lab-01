@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width:767px) {
+  body {
+    width: 100%;
+    text-align: center;
+    
+  }
+  div:nth-child(1) {
+    width: 100%;
+    height: 75px;
+    border: 1px solid black;
+    background-color: rgb(77, 233, 111);
+    line-height: 75px;
+  }
+  div:nth-child(2) {
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(25, 43, 29);
+    line-height: 150px;
+  }
+  div:nth-child(3) {
+    width: 100%;
+    height: 125px;
+    border: 1px solid black;
+    background-color: rgb(177, 28, 127);
+    line-height: 125px;
+  }
+  div:nth-child(4) {
+    width: 100%;
+    height: 125px;
+    border: 1px solid black;
+    background-color: rgb(177, 223, 187);
+    line-height: 125px;
+  }
+  section div:nth-child(1), section div:nth-child(2), section div:nth-child(3), section div:nth-child(4) {
+    width: 50%;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(228, 9, 119);
+    line-height: 250px;
+  }
+  #last {
+    clear: both;
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: rgb(122, 128, 123);
+    line-height: 80px;
+  }
+}
+
+@media only screen and (min-width:767px) {
+  body {
+    width: 100%;
+    text-align: center;
+  }
+  div:nth-child(1) {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(41, 57, 197);
+    line-height: 100px;
+  }
+  div:nth-child(2) {
+    width: 20.83%;
+    height: 600px;
+    border: 1px solid black;
+    background-color: rgb(77, 233, 111);
+    line-height: 600px;
+    float: left;
+  }
+  div:nth-child(3) {
+    
+    float: left;
+    width: 39.58%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(39, 94, 156);
+    line-height: 200px;
+  }
+  div:nth-child(4) {
+    float: left;
+    width: 39.58%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(143, 139, 165);
+    line-height: 200px;
+  }
+
+  section div:nth-child(1), section div:nth-child(2), section div:nth-child(3), section div:nth-child(4) {
+    float: left;
+    width: 19.79%;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(11, 118, 241);
+    line-height: 250px;
+  }
+  #last {
+    clear: both;
+    /* float: right; */
+    position: relative;
+    left: 20.83%;
+    bottom: 150px;
+    width: 79.17%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(210, 111, 235);
+    line-height: 150px;
+  }
+}
