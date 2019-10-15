@@ -1,8 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 
-@media only screen and (max-width:767px) {
+
   body {
     width: 100%;
     text-align: center;
@@ -52,12 +49,13 @@
     background-color: rgb(122, 128, 123);
     line-height: 80px;
   }
-}
+
 
 @media only screen and (min-width:767px) {
   body {
-    width: 100%;
+    width: 960px;
     text-align: center;
+    margin: auto;
   }
   div:nth-child(1) {
     width: 100%;
@@ -102,11 +100,8 @@
     line-height: 250px;
   }
   #last {
-    clear: both;
-    /* float: right; */
-    position: relative;
-    left: 20.83%;
-    bottom: 150px;
+    clear: none;
+    float: left;
     width: 79.17%;
     height: 150px;
     border: 1px solid black;
